@@ -81,7 +81,7 @@ function CreateProduct() {
 
     return (
         <>
-            <div className="main-container">
+            <main className="main-container-addprod">
                 <div className="center-content">
                     <h1 className="titulo-form">Crear Producto</h1>
                     <form onSubmit={handleSubmit} className="formularioAddProduct">
@@ -171,7 +171,7 @@ function CreateProduct() {
                         {/* <button type='submit' className='submit' disabled={loading}>Crear Producto</button> */}
                     </form>
                 </div>
-            </div>
+            </main>
         </>
     )
 }

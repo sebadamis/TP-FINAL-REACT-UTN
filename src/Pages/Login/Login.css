@@ -1,14 +1,14 @@
 .login-container {
     max-height: 100dvh;
 	max-width: 100dvw;
-    /* background: #833AB4; */
+    background: #833AB4;
     background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 
 .login-box {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     width: 400px;
     padding: 40px;
