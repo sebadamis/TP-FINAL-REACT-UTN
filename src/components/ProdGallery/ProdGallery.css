@@ -1,10 +1,10 @@
 .content {
-    max-height: 100dvh;
-	max-width: 100dvw;
+    height: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: none;
+    /* background-color: none; */
     flex-wrap: wrap;
 }
 
@@ -21,12 +21,14 @@
 
 
 .product-gallery__container {
+    height: 60%;
+    width: 100%;
     display: flex;
     gap: 1rem;
-    margin-block: 1rem;
+    /* margin-block: 1rem; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: none;
+    /* background-color: none; */
 }
 
