@@ -18,40 +18,39 @@ function Footer() {
                         SHOP<span>logo</span>
                         </h3>
                         <p className="footer-links">
-                        <Link href="#" className="link-1">
+                        <Link to={"/"} className="link-1">
                             Home
                         </Link>
-                        <Link to="#">Blog</Link>
-                        <Link to="#">Pricing</Link>
-                        <Link to="#">About</Link>
-                        <Link to="#">Faq</Link>
-                        <Link to="#">Contact</Link>
+                        <Link to={"/Contact"}>Contact</Link>
+                        <Link to={"/Login"}>Login</Link>
+                        <Link to={"/registration"}>Register</Link>
+                        <Link to={"/crearproducto"}>Crear Producto</Link>
+                        
                         </p>
-                        <p className="footer-company-name">Company Name © 2015</p>
+                        <p className="footer-company-name">SHOP © 2025</p>
                     </div>
                     <div className="footer-center">
                         <div>
                         <FaMapMarkerAlt className="fa fa-map-marker" />
                         <p>
-                            444 S. Cedros Ave Solana Beach, California
+                            Tacuarí 655, Cdad. Autónoma de Buenos Aires 
                         </p>
                         </div>
                         <div>
                         <BsTelephoneFill className="fa fa-phone" />
-                        <p>+1.555.555.5555</p>
+                        <p>+11 4382-5916</p>
                         </div>
                         <div>
                         <FaEnvelope className="fa fa-envelope" />
                         <p>
-                            <Link to="mailto:support@company.com">support@company.com</Link>
+                            <Link to="mailto:support@company.com">contacto@shop.com</Link>
                         </p>
                         </div>
                     </div>
                     <div className="footer-right">
                         <p className="footer-company-about">
-                        <span>About the company</span>
-                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod
-                        convallis velit, eu auctor lacus vehicula sit amet.
+                        <span>Sobre Nosotros</span>
+                        SHOP es una tienda que vende casi todo lo que necesitas. Puedes encontrar ropa, bazar, electrónica, accesorios y mucho más, todo en un solo lugar.
                         </p>
                         <div className="footer-icons">
                         <Link to="#">
