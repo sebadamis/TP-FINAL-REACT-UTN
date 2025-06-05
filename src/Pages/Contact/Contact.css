@@ -1,6 +1,6 @@
 html {
-    max-height: 100dvh;
-	max-width: 100dvw;
+    min-height: 100dvh;
+	min-width: 100dvw;
 }
 
 .super-container {
