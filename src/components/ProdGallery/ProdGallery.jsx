@@ -67,7 +67,7 @@ export const ProdGallery = () => {
     return (
         <>
             
-                <div id='content'>
+                <div className='content'>
                     
 
                     <div className="product-gallery__container">

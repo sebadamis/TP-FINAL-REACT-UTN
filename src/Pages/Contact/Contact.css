@@ -1,11 +1,10 @@
 
 .super-container {
-	height: 100dvh;
-	width: 100dvw;
+	max-height: 100dvh;
+	max-width: 100dvw;
     background: #22C1C3;
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     background-repeat: no-repeat;
-    margin: 1rem;
 }
 
 .main-container {
@@ -16,6 +15,7 @@
     background-color: transparent;
     border-radius: 15px;
     padding: 10px;
+    margin: 0 2rem;
 }
 
 
