@@ -14,7 +14,7 @@ function Footer() {
             <footer className='footer-container'>
                 <div className="footer-distributed">
                     <div className="footer-left">
-                        <h3>
+                        <h3 className='logo-name'>
                         SHOP<span>logo</span>
                         </h3>
                         <p className="footer-links">
@@ -33,7 +33,7 @@ function Footer() {
                         <div>
                         <FaMapMarkerAlt className="fa fa-map-marker" />
                         <p>
-                            <span>444 S. Cedros Ave</span> Solana Beach, California
+                            444 S. Cedros Ave Solana Beach, California
                         </p>
                         </div>
                         <div>

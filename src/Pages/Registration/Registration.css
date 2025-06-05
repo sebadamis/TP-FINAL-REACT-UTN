@@ -4,7 +4,7 @@
 	width: 100dvw;
     font-size: 14px;
     background: #f2f2f2;
-    margin: 0 auto;
+    margin: 3rem auto;
     background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
 }
 .clearfix:after {
@@ -20,7 +20,8 @@
     max-width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    margin: 8% auto 0;
+    margin: 5% auto 0;
+    margin-bottom: 3% auto 0;
     position: relative;
     z-index: 1;
     border-top: 5px solid #10258d;
