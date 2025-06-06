@@ -12,7 +12,7 @@
     --black: hsl(0, 0%, 0%);
 
 
-    --fs-1: 2.8rem;
+    --fs-1: 2rem;
     --fs-2: 1.8rem;
     --fs-3: 1.5rem;
     --fs-4: 1.2rem;
@@ -80,25 +80,49 @@ ion-icon {
     --ionicon-stroke-width: 40px;
 }
 
-.master-div-container {
+/* html {
     font-family: var(--ff-kumbh-sans);
     font-size: 10px;
     scroll-behavior: smooth;
-}
+    background: none;
+} */
 
-.main-container-detailcard {
-    max-width: 100vw;
-    max-height: 100vh;
+.master-div-container {
+    min-width: 100dvw;
+    min-height: 100dvh;
+    font-family: var(--ff-kumbh-sans);
+    font-size: 10px;
+    scroll-behavior: smooth;
+
     background-color: var(--white);
     color: var(--dark-electric-blue);
     font-size: 1.6rem;
-    /* margin: 30px auto; */
-    /* padding: 20px; */
+    margin: 0 auto;
+    padding: 20px;
     background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+}
 
+
+.main-container-detailcard {
     font-family: var(--ff-kumbh-sans);
     font-size: 10px;
     scroll-behavior: smooth;
+    /* max-width: 100vw;
+    max-height: 100vh; */
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    color: var(--dark-electric-blue);
+    font-size: 1.6rem;
+
+
+    .art-detailcard-container {
+        font-family: var(--ff-kumbh-sans);
+        font-size: 10px;
+        scroll-behavior: smooth;
+        width: 90%;
+        height: 80%;
+    }
 }
 
 /*-----------------------------------*\
@@ -106,11 +130,16 @@ ion-icon {
 \*-----------------------------------*/
 
 .container {
+    font-family: var(--ff-kumbh-sans);
+    font-size: 10px;
+    scroll-behavior: smooth;
     padding-inline: 15px;
     border: 2px rgba(128, 128, 128, 0.541) solid;
     padding: 20px;
     border-radius: 5px;
     background-color: whitesmoke;
+    width: 100%;
+    height: 80%;
 }
 
 .img-cover {
@@ -351,7 +380,7 @@ img {
     }
 
     .product-title {
-        --fs-1: 4.5rem;
+        --fs-1: 2.5rem;
     }
 
     /* .btn-group {

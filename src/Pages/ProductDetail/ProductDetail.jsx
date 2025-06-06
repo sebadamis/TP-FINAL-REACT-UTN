@@ -7,7 +7,6 @@ import "./ProductDetail.css"
 
 function ProductDetail() {
     const {prod_id} = useParams();
-    console.log(prod_id);
 
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -49,7 +48,7 @@ function ProductDetail() {
             content = <h1>{error}</h1>
         }
         else {
-            content = <ProdDetailCard {...product}/>
+            content = <ProdDetailCard key={prod_id}{...product}/>
         }
     }
 
