@@ -1,11 +1,8 @@
-html {
-    min-height: 100dvh;
-	min-width: 100dvw;
-}
+
 
 .content {
-    height: 100%;
-    width: 100%;
+    min-height: 100dvh;
+    min-width: 100dvw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +22,7 @@ html {
 
 
 .product-gallery__container {
-    height: 60%;
+    height: 100%;
     width: 100%;
     display: flex;
     gap: 1rem;
@@ -35,5 +32,6 @@ html {
     justify-content: center;
     /* background-color: none; */
     margin-bottom: 15rem;
+    /* background-color: linear-gradient(90deg, #5b193c, #6a074c, #b01193, #9c1a97, #7f0095, #6e0f9d, #54169a, #231cb0); */
 }
 

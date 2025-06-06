@@ -6,7 +6,7 @@ function Contact() {
     return (
         <>
             
-                <body className="super-container">
+                <div className="super-container">
                     <main className="main-container">
                         <section className="contact-section">
                             <div className="titulo-sub-container">
@@ -80,7 +80,7 @@ function Contact() {
                             </div>
                         </section>
                     </main>
-                </body>
+                </div>
         
         </>
     )

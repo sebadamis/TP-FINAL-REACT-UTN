@@ -1,24 +1,15 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    min-height: 100dvh;
-	min-width: 100dvw;
-}
 
 .prod-card-container {
-    background: linear-gradient(90deg, #5b193c, #6a074c, #b01193, #9c1a97, #7f0095, #6e0f9d, #54169a, #231cb0);
     height: 100%;
     width: 100%;
+    max-width: 32%;
 }
 .main-product-card {
     justify-content: center;
     align-items: center;
     max-height: 100%;
-    max-width: 100%;
+    width: 100%;
     display: flex;
 	flex-direction: row;
     margin-bottom: 5rem;

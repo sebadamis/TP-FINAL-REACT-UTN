@@ -11,7 +11,7 @@ export const Productos = ({id, titulo, img,  precio, descuento}) => {
 
     return (
     <>
-        <body className="prod-card-container">
+        <div className="prod-card-container">
             <main className='main-product-card'>
                 <div className="card-container">
                     <div className="card">
@@ -37,7 +37,7 @@ export const Productos = ({id, titulo, img,  precio, descuento}) => {
                     </div>
                 </div>
             </main>
-        </body>
+        </div>
     </>
 
     )

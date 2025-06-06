@@ -6,7 +6,7 @@ function Login() {
     return (
 
         <>
-            <body className='login-container'>
+            <div className='login-container'>
                 <div className="login-box">
                     <h2>Login</h2>
                     <form>
@@ -20,7 +20,7 @@ function Login() {
                         </div>
                     </form>
                 </div>
-            </body>
+            </div>
 
         </>
 

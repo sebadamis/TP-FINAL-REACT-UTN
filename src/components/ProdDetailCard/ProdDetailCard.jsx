@@ -12,39 +12,41 @@ import BotonesDetail from '../BotonesDetail/BotonesDetail';
 
     return (
         <>
-            <main className='main-container-detailcard'>
-                <article className='art-detailcard-container'>
-                    <section className="section product" aria-label="product">
-                        <div className="container">
-                            <div className="img-container">
-                                <img
-                                    src={img}
-                                    alt={id}/>
-                            </div>
-                            <div className="product-content">
-                                <p className="product-subtitle">{categoria}</p>
-                                <h1 className="h1 product-title">
-                                    {titulo}
-                                </h1>
-                                <p className="product-text">
-                                    <span className='stock'>Stock: {stock}</span>
-                                    
-                                    <span className='description'>Descripción: </span>
-                                    {descripcion}
-                                </p>
-                                <div className="wrapper">
-                                    <span className="price" data-total-price="">${precioConDescuentoRedondeado}</span>
-                                    <span className="badge">{descuento}%</span>
-                                    <del className="del">${precio}</del>
+            <div className="master-div-container">
+                <main className='main-container-detailcard'>
+                    <article className='art-detailcard-container'>
+                        <section className="section product" aria-label="product">
+                            <div className="container">
+                                <div className="img-container">
+                                    <img
+                                        src={img}
+                                        alt={id}/>
                                 </div>
-                            
-                                <BotonesDetail/>
-                            
+                                <div className="product-content">
+                                    <p className="product-subtitle">{categoria}</p>
+                                    <h1 className="h1 product-title">
+                                        {titulo}
+                                    </h1>
+                                    <p className="product-text">
+                                        <span className='stock'>Stock: {stock}</span>
+                                        
+                                        <span className='description'>Descripción: </span>
+                                        {descripcion}
+                                    </p>
+                                    <div className="wrapper">
+                                        <span className="price" data-total-price="">${precioConDescuentoRedondeado}</span>
+                                        <span className="badge">{descuento}%</span>
+                                        <del className="del">${precio}</del>
+                                    </div>
+                                
+                                    <BotonesDetail/>
+                                
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                </article>
-            </main>
+                        </section>
+                    </article>
+                </main>
+            </div>
     </>
 );
 }

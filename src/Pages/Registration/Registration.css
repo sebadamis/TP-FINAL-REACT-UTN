@@ -1,16 +1,12 @@
-html {
-    min-height: 100dvh;
-	min-width: 100dvw;
-}
-
 .body {
     font-family: Verdana, Geneva, sans-serif;
-    height: 100%;
-	width: 100%;
+    min-height: 100dvh;
+	min-width: 100dvw;
     font-size: 14px;
     background: #f2f2f2;
     margin: 0rem auto;
     background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
+    padding-top: 1rem;
 }
 .clearfix:after {
     content: "";

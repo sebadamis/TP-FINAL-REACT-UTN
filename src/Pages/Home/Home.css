@@ -1,10 +1,10 @@
 .prod-gallery-container {
-    max-height: 100dvh;
-	max-width: 100dvw;
-    /* background: #939195; */
-    display: block;
-    /* margin: 15px auto; */
+    min-height: 100dvh;
+	min-width: 100dvw;
+    display: flex;
     float: left;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, #5b193c, #6a074c, #b01193, #9c1a97, #7f0095, #6e0f9d, #54169a, #231cb0);
+    padding-top: 4.5rem;
 }

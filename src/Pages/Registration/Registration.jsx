@@ -7,7 +7,7 @@ import { FaUser, FaLock } from "react-icons/fa";
 function Registration() {
     return (
         <>
-            <body className='body'>
+            <div className='body'>
                 <div className="form_wrapper">
                     <div className="form_container">
                     <div className="title_container">
@@ -104,7 +104,7 @@ function Registration() {
                     </div>
                     </div>
                 </div>
-            </body>
+            </div>
             
         </>
 
