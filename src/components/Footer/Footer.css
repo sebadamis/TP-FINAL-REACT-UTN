@@ -49,10 +49,11 @@
 	margin: 0;
 }
 
-.footer-distributed h3 span{
-	color:  rgb(106, 255, 144);
-	display: inline;
-	margin: 0 1.5rem;
+.footer-distributed .logo{
+	height: 50px;
+	width: 50px;
+	margin-left: 0;
+	padding: 0;
 }
 
 
@@ -73,7 +74,7 @@
 }
 
 .footer-distributed .footer-company-name{
-	color:  #ed0a43;
+	color:  #e7ff5d;
 	font-size: 14px;
 	font-weight: 600;
 	margin: 0;
@@ -164,21 +165,28 @@
 }
 
 .footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 30px;
-	height: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
-	background-color:  #8c989f;
-	border-radius: 7px;
-
+	background-color:  #bdd6e5d2;
+	border-radius: 15px;
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 20px;
-
-	margin-right: 10px;
-	margin-bottom: 10px;
+	vertical-align: middle;
+	margin: 5px;
 }
+
+.fa-facebook .fa-twitter .fa-linkedin .fa-github {
+	height: 30px;
+	width: 30px;
+}
+
+
 
 /* If you don't want the footer to be responsive, remove these media queries */
 

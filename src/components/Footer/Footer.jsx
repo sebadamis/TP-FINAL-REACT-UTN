@@ -14,9 +14,10 @@ function Footer() {
             <footer className='footer-container'>
                 <div className="footer-distributed">
                     <div className="footer-left">
-                        <h3 className='logo-name'>
+                        {/* <h3 className='logo-name'>
                         SHOP<span>logo</span>
-                        </h3>
+                        </h3> */}
+                        <img src="../../../public/logo-2023042415375484200.webp" alt="logo" className='logo'/>
                         <p className="footer-links">
                         <Link to={"/"} className="link-1">
                             Home
