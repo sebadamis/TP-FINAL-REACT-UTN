@@ -17,7 +17,7 @@ function Footer() {
                         {/* <h3 className='logo-name'>
                         SHOP<span>logo</span>
                         </h3> */}
-                        <img src="../../../public/logo-2023042415375484200.webp" alt="logo" className='logo'/>
+                        <img src="https://i.ibb.co/vC6vbpgy/logo-2023042415375484200.webp" alt="logo" className='logo'/>
                         <p className="footer-links">
                         <Link to={"/"} className="link-1">
                             Home
