@@ -6,7 +6,7 @@
     background: #f2f2f2;
     margin: 0rem auto;
     background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
-    padding-top: 1rem;
+    padding-top: 0.75rem;
 }
 .clearfix:after {
     content: "";
@@ -41,7 +41,7 @@
     background-color: #515151;
 }
 .form_wrapper h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.2em;
     margin: 0;
 }

@@ -33,7 +33,7 @@ function App() {
 
         </Routes>
 
-        <Footer/>
+        <Footer id="footer"/>
       </div>
 
     </>

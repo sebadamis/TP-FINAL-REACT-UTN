@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./CreateProduct.css"
 import { addDoc, collection } from 'firebase/firestore'
 import database from '../../config/firebase'
+import Swal from 'sweetalert2'
 
 function CreateProduct() {
 
@@ -59,6 +60,12 @@ function CreateProduct() {
     const handleSubmit = async (event)=> {
         event.preventDefault()
         setLoading(true)
+
+        Swal.fire({
+                    title: "Nuevo Producto Creado",
+                    icon: "success",
+                    draggable: true
+        });
 
         const url_img = await uploadImgToImgBB(formulario.img)
         console.log(url_img)

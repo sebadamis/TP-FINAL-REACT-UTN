@@ -10,18 +10,17 @@ html {
 	min-width: 100dvw;
 }
 
-/* body {
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-} */
 
 .app {
-    /* min-height: 100dvh;
-	min-width: 100dvw; */
     min-height: 100%;
     min-width: 100%; 
     background-color: transparent;
+    position: relative;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
