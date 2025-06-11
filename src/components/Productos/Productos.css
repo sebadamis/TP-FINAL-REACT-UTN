@@ -3,7 +3,7 @@
 .prod-card-container {
     height: 100%;
     width: 100%;
-    max-width: 32%;
+    max-width: 320px;
 }
 .main-product-card {
     justify-content: center;
